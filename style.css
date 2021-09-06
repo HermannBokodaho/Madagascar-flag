@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:aquamarine;
+  padding: 5vh 0;
+}
+.title{
+  text-align: center;
+}
+.flag-madagascar {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 80vh;
+  display: flex;
+  padding: 5vh;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 6px 10px 20px rgba(255, 255, 255, .2em);
+}
+.flag-design{
+  height: 120px;
+  width: 180px;
+  /* box-shadow: 5px 6px 40px 9px grey; */
+}
+.white {
+  width: 70px;
+  height: 120px;
+  background-color: #FFF;
+}
+.red {
+  width: 120px;
+  height: 60px;
+  background-color: #f00;
+  margin-left: 60px;
+}
+.green {
+  width: 120px;
+  height: 60px;
+  background-color: green;
+  margin-left: 60px;
+}
+.design{
+    text-align: center;
+}
+.design a{
+    text-decoration: none;
+    transition: all 1.5s;
+}
+.design a:hover{
+  background-color: #FFF;
+  color: black;
+  font-weight: 700;
+}
+span:nth-child(1){
+  color: #FFF;
+}span:nth-child(2){
+  color: #f00;
+}
+span:nth-child(3){
+  color: green;
+}
